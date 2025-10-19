@@ -1,0 +1,16 @@
+hyena-core-backend/
+│
+├── server.js                # main backend file
+├── package.json             # dependencies and start script
+├── /routes/
+│     ├── coinflip.js
+│     └── users.js
+├── /controllers/
+│     ├── coinflipController.js
+│     └── userController.js
+├── /models/
+│     ├── db.js              # SQLite for local, PostgreSQL-ready
+│     └── userModel.js
+├── /config/
+│     └── sweepstakesConfig.js
+└── README.md
